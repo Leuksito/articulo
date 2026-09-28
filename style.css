@@ -6,9 +6,18 @@ body  {
 #titulo {
     color: #6B1500;
     font-family: "Creepster", system-ui;
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
     -webkit-text-stroke: 0.01px red;
+    margin: -5px;
+}
+
+#titulo2 {
+    color: #7B7B7B;
+    font-family: "Creepster", system-ui;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
 }
 
 #portada {
@@ -17,7 +26,21 @@ body  {
     border-color: white;
 }
 
+.texto h2 {
+    font-family: "Creepster", system-ui;
+    color: red;
+}
+
+.texto p {
+    margin-top: -12px;
+}
 .contenedor {
     display: flex;
-    gap: 20px
+    gap: 20px;
+}
+
+#foto2 {
+    width: 200px;
+    border-style: solid;
+    border-color: red;
 }
