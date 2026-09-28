@@ -1,6 +1,23 @@
+body  {
+    background-color: black;
+    color: white;
+}
+
 #titulo {
     color: #6B1500;
     font-family: "Creepster", system-ui;
     font-size: 50px;
     text-align: center;
+    -webkit-text-stroke: 0.01px red;
+}
+
+#portada {
+    width: 250px;
+    border-style: solid;
+    border-color: white;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px
 }
